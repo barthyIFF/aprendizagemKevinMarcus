@@ -14,6 +14,7 @@ public class Conecta {
 			
 			Connection	con	=	null;
 			con = DriverManager.getConnection(
+					//Trocar XXX pela sua senha
 					"jdbc:mysql://localhost/fj21",	"root",	"greeneYes.22");
 		return	con;
 		}	catch	(SQLException | ClassNotFoundException	e)	{
