@@ -18,7 +18,7 @@ public class Conecta {
 					"jdbc:mysql://localhost/fj21",	"root",	"greeneYes.22");
 		return	con;
 		}	catch	(SQLException | ClassNotFoundException	e)	{
-			System.out.print("Erro ao conectar o banco de dados. Verifique conecte em Conecta.");
+			System.out.print("Erro ao conectar o banco de dados. Verifique conecte em Conecta");
 			e.printStackTrace();
 			return null;
 		}
