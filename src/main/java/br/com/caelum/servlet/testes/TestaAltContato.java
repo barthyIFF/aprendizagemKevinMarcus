@@ -15,12 +15,14 @@ public class TestaAltContato {
 		c = cs.get(0);
 		
 		//Vamos alterar somente o nome
-		c.setNome("nomeALTERADO_Claudio");
+		c.setNome("Kevin_Marcus");
+		c.setEmail("Kevin_Marcus@gmail.com");
+		c.setEndereco("Penha_Balieira");
 		
 		cdao.altera(c);
 		
 		c = cs.get(0);
-		System.out.println("Nome apos a alteração: "+c.getNome());
+		System.out.println("Nome apos a alteração: "+c.getNome()+c.getEmail()+c.getEndereco());
 
 	}
 

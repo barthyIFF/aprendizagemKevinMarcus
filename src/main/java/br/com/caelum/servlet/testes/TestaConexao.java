@@ -10,7 +10,7 @@ import br.com.caelum.DAO.Conecta;
 public class TestaConexao {
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
 		Connection	conexao	=	new	Conecta().conecte();
-		System.out.println("Conexão	aberta!");
+		System.out.println("Conexao	aberta!");
 		conexao.close();
 	}
 
